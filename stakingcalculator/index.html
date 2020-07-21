@@ -1,0 +1,27 @@
+
+<head>
+<title> Staking Stake to Yield more Stake </title>
+<link href="main.css" rel="stylesheet" type="text/css" media="screen">
+<script type='text/javascript' src='jsver1.js'></script>
+</head>
+<html>
+<body>
+<div class="form">
+
+<h1>Staking Stake to Yield more Stake</h1> <br/>
+
+<form id="resetForm">
+<label>Number of Stake staked (principal)</label> <input type="text" id="principal" size=10><br/> <br/>
+<label>Annual rate (example: 10%)</label> <input type="text" id="annualRate" size=10 style="float: left;"> <br/><br/>
+<label>Number of years</label><input type="text" id="years" size=10><br/> <br/>
+<br/>
+</form>
+
+<button type="button" onclick="doFV()">Compute future value</button> <br/><br/>
+<button type="button" onclick="reset()" value="Reset form">Reset</button><br/><br/><br/><br/>
+
+<div class="output" id="outputDiv"></div>
+
+</div>
+</body>
+</html>

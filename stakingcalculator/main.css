@@ -1,0 +1,72 @@
+body{
+	width: 450px;
+  height: 450px;
+  border-width:2px;
+  border-color:#FFFFFF #808080 #808080 #FFFFFF;
+  border-style:solid;
+  margin: 50px auto;
+	background-color: #cccccc;
+  color: #48A9A6;
+}
+
+.form {
+	background-color: #cccccc;
+	padding: 15px 30px;
+}
+
+label {
+	float: left;
+	width: 200px;
+}
+
+button{
+	float: left;
+	width: auto;
+	background-color: #cccccc;
+  border-width:2px;
+  border-color:#FFFFFF #808080 #808080 #FFFFFF;
+  border-style:solid;
+	padding: 2px 3px 3px 3px;
+  color: #48A9A6;
+}
+
+.output{
+	color: #48A9A6;
+}
+
+/* Media Queries */
+@media (min-width: 320px){
+	body {width:90%; font-size: 70%}
+	label {width:60%;}
+	button {width:100%;}
+}
+
+@media (min-width: 360px){
+	body {width:95%; font-size: 70%}
+	label {width:69%;}
+	button {width:100%;}
+}
+
+@media (min-width: 768px){
+	body {width:50%; font-size: 90%}
+	label {width:69%;}
+	button {width:auto;}
+}
+
+@media (min-width: 980px){
+	body {width:40%; font-size: 100%}
+	label {width:69%;}
+	button {width:auto;}
+}
+
+@media (min-width: 1280px){
+	body {width:35%; font-size: 100%}
+	label {width:69%;}
+	button {width:auto;}
+}
+
+@media (min-width: 1920px){
+	body {width:25%; font-size: 100%}
+	label {width:69%;}
+	button {width:auto;}
+}
